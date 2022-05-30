@@ -1,0 +1,23 @@
+権限がないためターミナルを実行するときは以下のコマンドを付けて実行すること。
+
+PowerShell -ExecutionPolicy RemoteSigned
+
+
+firebase のルールを設定する場合
+PowerShell -ExecutionPolicy RemoteSigned firebase deploy --only firestore:rules
+
+firestore.indexes.jsonを使ってindexを追加する場合
+firebase deploy --only firestore:index
+ここではwhere文を作って実行した際に出たエラーメッセージに表示されたURLをクリックすることによりindexを作成した。
+
+リスト
+npm ls
+
+
+npm update
+
+PowerShell -ExecutionPolicy RemoteSigned npm install --save react-id-swiper@latest swiper@latest --legacy-peer-deps
+
+とらはっく　バージョン指定
+PowerShell -ExecutionPolicy RemoteSigned npm install swiper@5.4.2 react-id-swiper@3.0.0 --legacy-peer-deps
+
